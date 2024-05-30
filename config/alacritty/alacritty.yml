@@ -1,0 +1,58 @@
+window:
+  padding:
+    x: 10
+    y: 10
+  class:
+    instance: Alacritty
+    general: Alacritty
+  opacity: 1
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+font:
+  normal:
+    family: MesloLGM NerdFont
+    style:  Regular
+  bold:
+    family: MesloLGM NerdFont
+    style:  Bold
+  italic:
+    family: MesloLGM NerdFont
+    style:  Italic
+  bold_italic:
+    family: MesloLGM NerdFont
+    style: Bold Italic
+  size: 9
+draw_bold_text_with_bright_colors: true
+
+colors:
+  primary:
+    background: "#282828"
+    foreground: "#ebdbb2"
+  normal:
+    black: "#282828"
+    red: "#cc241d"
+    green: "#98971a"
+    yellow: "#d79921"
+    blue: "#458588"
+    magenta: "#b16286"
+    cyan: "#689d6a"
+    white: "#a89984"
+  bright:
+    black: "#928374"
+    red: "#cc241d"
+    green: "#cc241d"
+    yellow: "#d79921"
+    blue: "#458588"
+    magenta: "#b16286"
+    cyan: "#689d6a"
+    white: "#a89984"
+
+selection:
+  save_to_clipboard: false
+
+key_bindings:
+  - { key: Return, mods: Super|Shift, action: SpawnNewInstance }
+
